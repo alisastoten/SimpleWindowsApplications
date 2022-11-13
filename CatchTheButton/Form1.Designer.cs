@@ -36,12 +36,13 @@ namespace CatchTheButton
             // 
             // button_catchMe
             // 
-            this.button_catchMe.Location = new System.Drawing.Point(268, 163);
+            this.button_catchMe.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button_catchMe.Location = new System.Drawing.Point(333, 180);
             this.button_catchMe.Name = "button_catchMe";
             this.button_catchMe.Size = new System.Drawing.Size(99, 43);
             this.button_catchMe.TabIndex = 0;
             this.button_catchMe.Text = "Catch me!";
-            this.button_catchMe.UseVisualStyleBackColor = true;
+            this.button_catchMe.UseVisualStyleBackColor = false;
             this.button_catchMe.Click += new System.EventHandler(this.button_catchMe_Click);
             // 
             // timer1
