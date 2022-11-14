@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordChecker", "Password
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyingObject", "FlyingObject\FlyingObject.csproj", "{D9D10A74-64FA-4DB7-9785-A65FCC6EAA2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountdownTimer", "CountdownTimer\CountdownTimer.csproj", "{C55AAB5C-8241-458C-8A85-9F0F00418594}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D9D10A74-64FA-4DB7-9785-A65FCC6EAA2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9D10A74-64FA-4DB7-9785-A65FCC6EAA2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9D10A74-64FA-4DB7-9785-A65FCC6EAA2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C55AAB5C-8241-458C-8A85-9F0F00418594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C55AAB5C-8241-458C-8A85-9F0F00418594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C55AAB5C-8241-458C-8A85-9F0F00418594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C55AAB5C-8241-458C-8A85-9F0F00418594}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
