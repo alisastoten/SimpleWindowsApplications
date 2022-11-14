@@ -18,8 +18,8 @@ namespace PasswordChecker
             //textBox_password.PasswordChar = '*'; // a lot easier tbh
         }
 
-        private string password = "tere";
-        private string login = "123";
+        private string password = "CatsAreGreat";
+        private string login = "HavingFun";
         private string enteredPassword = "";
 
         private void button_submit_Click(object sender, EventArgs e)
