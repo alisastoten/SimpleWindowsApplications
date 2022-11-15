@@ -16,5 +16,20 @@ namespace CountdownTimer
         {
             InitializeComponent();
         }
+
+        private void button_clear_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_stop_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_start_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
