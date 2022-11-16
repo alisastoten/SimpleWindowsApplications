@@ -21,3 +21,7 @@ On the password field the password has to be replaced by „*“ characters. (Pa
 * Label has to move on the form. It cannot move out of the bounds of the form.
 * Form must have two buttons - start and stop. 
 * Start - starts the movement. Movement will not end until stop is clicked.
+
+## Manual timer - programming minutes and seconds timer logic
+
+* Has to change like this: 03:06->03:05->03:04->03:02->03:01->03:00->02:59->02:58 … etc
