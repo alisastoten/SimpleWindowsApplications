@@ -35,6 +35,7 @@ namespace CountdownTimer
             this.button_start = new System.Windows.Forms.Button();
             this.button_stop = new System.Windows.Forms.Button();
             this.button_clear = new System.Windows.Forms.Button();
+            this.label_info = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox_countdown
@@ -50,6 +51,7 @@ namespace CountdownTimer
             // timer_countdown
             // 
             this.timer_countdown.Interval = 1000;
+            this.timer_countdown.Tick += new System.EventHandler(this.timer_countdown_Tick);
             // 
             // button_start
             // 
@@ -87,11 +89,22 @@ namespace CountdownTimer
             this.button_clear.UseVisualStyleBackColor = false;
             this.button_clear.Click += new System.EventHandler(this.button_clear_Click);
             // 
+            // label_info
+            // 
+            this.label_info.AutoSize = true;
+            this.label_info.Location = new System.Drawing.Point(233, 9);
+            this.label_info.Name = "label_info";
+            this.label_info.Size = new System.Drawing.Size(31, 17);
+            this.label_info.TabIndex = 4;
+            this.label_info.Text = "Info";
+            this.label_info.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(546, 278);
+            this.Controls.Add(this.label_info);
             this.Controls.Add(this.button_clear);
             this.Controls.Add(this.button_stop);
             this.Controls.Add(this.button_start);
@@ -110,6 +123,7 @@ namespace CountdownTimer
         private System.Windows.Forms.Button button_start;
         private System.Windows.Forms.Button button_stop;
         private System.Windows.Forms.Button button_clear;
+        private System.Windows.Forms.Label label_info;
     }
 }
 
